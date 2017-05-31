@@ -1,3 +1,37 @@
 page-home {
+  .h {
+    background-color: #2ec95c;
+
+  }
+  .textView{
+    background-color: transparent;
+  }
+  .title{
+    color: #DA6800 ;
+    text-align: center;
+  }
+
+  .upperDiv{
+    top:-25px;
+    background-color: #9BE3ED;
+  }
+
+  .buttonDiv{
+    top:34px;
+    background-color: #F6A623;
+  }
+
+  .downDiv {
+    position: relative;
+    background-size: 100%;
+    top:-25px;
+    height: 100vh;
+    left:0;
+    background: url("../../assets/img/images.png") no-repeat center center ;
+    -webkit-background-size: cover;
+    text-align: center;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
 
 }

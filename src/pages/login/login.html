@@ -4,22 +4,42 @@
 </ion-content> -->
 <ion-content class="downDiv" style="background-color:#9BE3ED">
 <div id="header">
-    <h1 class="title">OOTA</h1>
-
+    <h1 class="title">oota</h1>
+    <h4 class="subTitle">Taking the thinking out of eating </h4>
     <ion-list>
+      <ion-row>
+        <ion-col col-2></ion-col>
+        <ion-col col-8>
+          <ion-item class="inputFeildBackground">
+            <ion-label  floating>Username</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col col-2></ion-col>
+      </ion-row>
 
-    <ion-item class="textView">
-      <ion-label floating>Username</ion-label>
-      <ion-input type="text"></ion-input>
-    </ion-item>
+    <ion-row>
+      <ion-col col-2></ion-col>
+      <ion-col col-8>
+        <ion-item class="inputFeildBackground">
+          <ion-label floating>Password</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col col-2></ion-col>
+    </ion-row>
 
-    <ion-item class="textView">
-      <ion-label floating>Password</ion-label>
-      <ion-input type="password"></ion-input>
-    </ion-item>
   </ion-list>
   </div>
-    <button ion-button block class="buttonDiv" color="secondary" (click)='goto_homepage()'>Login</button>
+  <ion-row>
+    <ion-col col-2></ion-col>
+    <ion-col col-8>
+      <button ion-button  block class="buttonDiv" color="secondary" (click)='goto_homepage()'>Login</button>
+    </ion-col>
+    <ion-col col-2></ion-col>
+
+  </ion-row>
+
 </ion-content>
 
 

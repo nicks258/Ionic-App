@@ -6,40 +6,63 @@
 <div id="header">
     <h1 class="title">oota</h1>
     <h4 class="subTitle">Taking the thinking out of eating </h4>
-    <ion-list>
-      <ion-row>
+     <!--  <ion-row class="details">
         <ion-col col-2></ion-col>
         <ion-col col-8>
+          <ion-list>
           <ion-item class="inputFeildBackground">
-            <ion-label  floating>Username</ion-label>
+            <ion-label fixed>Username</ion-label>
             <ion-input type="text"></ion-input>
           </ion-item>
+        </ion-list>
         </ion-col>
         <ion-col col-2></ion-col>
       </ion-row>
 
-    <ion-row>
+    <ion-row class="details_others">
       <ion-col col-2></ion-col>
       <ion-col col-8>
+        <ion-list>
         <ion-item class="inputFeildBackground">
-          <ion-label floating>Password</ion-label>
+          <ion-label fixed>Password</ion-label>
           <ion-input type="password"></ion-input>
         </ion-item>
+      </ion-list>
       </ion-col>
       <ion-col col-2></ion-col>
     </ion-row>
-
-  </ion-list>
   </div>
-  <ion-row>
+  <ion-row class="details_others">
     <ion-col col-2></ion-col>
     <ion-col col-8>
       <button ion-button  block class="buttonDiv" color="secondary" (click)='goto_homepage()'>Login</button>
     </ion-col>
     <ion-col col-2></ion-col>
 
-  </ion-row>
+  </ion-row> -->
 
+<ion-row class="body_element">
+  <ion-col col-2></ion-col>
+
+  <ion-col col-8>
+     <ion-list>
+      <ion-item class="bgcolor_text">
+        <ion-label floating>Username</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item class="bgcolor_text">
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+  </ion-list>
+   <button ion-button block class="buttonDiv login-button" (click)='goto_homepage()'>Login</button>
+  </ion-col>
+
+  <ion-col col-2></ion-col>
+</ion-row>
+
+  </div>
 </ion-content>
 
 

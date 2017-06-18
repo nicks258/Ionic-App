@@ -1,0 +1,51 @@
+<ion-header>
+    <ion-toolbar>
+      <button ion-button menuToggle class="text-color">
+      <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Search</ion-title>
+    </ion-toolbar>
+    <ion-toolbar style="margin-top:-15px">
+       <ion-searchbar (input)="getItems($event)"></ion-searchbar>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+   <ion-card>
+  <ion-card-header>
+    Explore Nearby
+  </ion-card-header>
+
+  <ion-list>
+    <button ion-item>
+      <ion-icon name="cart" item-start></ion-icon>
+      Food
+    </button>
+    <hr style="color:black">
+    <button ion-item>
+      <ion-icon name="medical" item-start></ion-icon>
+      Restaurant
+    </button>
+     <hr style="color:black"> 
+    <button ion-item>
+      <ion-icon name="cafe" item-start></ion-icon>
+      Indian
+    </button>
+     <hr style="color:black">
+    <button ion-item>
+      <ion-icon name="paw" item-start></ion-icon>
+      Chinese
+    </button>
+     <hr style="color:black">
+    <button ion-item>
+      <ion-icon name="beer" item-start></ion-icon>
+      Tandoori
+    </button>
+     <hr style="color:black">
+    <button ion-item>
+      <ion-icon name="planet" item-start></ion-icon>
+      Continental
+    </button>
+  </ion-list>
+</ion-card>
+</ion-content>
